@@ -24,6 +24,18 @@ These algorithms will make it easier for the research community and industry to 
 Since `pip install gym==0.21.0` doesn't work well on Google Colab, I revised the version of gym in `setup.py` and `docs/conda_env.yml`.
 I appreciate your advice on this points, such as other ways to solve this problem.
 
+
+## How to use in Colab
+
+Use the following code to `pip install` this forked version of Stable Baseline3:
+```
+!pip install git+https://github.com/JY251/stable-baselines3.git
+```
+
+You don't need to separately `!pip install gym` before running this code, and you can even run this code at the beginning of your runtime.
+
+(added by JY251 on 2023/03/24)
+
 ## Main Features
 
 **The performance of each algorithm was tested** (see *Results* section in their respective page),
