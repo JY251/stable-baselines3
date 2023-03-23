@@ -8,6 +8,7 @@
 
 # Stable Baselines3
 
+
 Stable Baselines3 (SB3) is a set of reliable implementations of reinforcement learning algorithms in PyTorch. It is the next major version of [Stable Baselines](https://github.com/hill-a/stable-baselines).
 
 You can read a detailed presentation of Stable Baselines3 in the [v1.0 blog post](https://araffin.github.io/post/sb3/) or our [JMLR paper](https://jmlr.org/papers/volume22/20-1364/20-1364.pdf).
@@ -16,6 +17,12 @@ You can read a detailed presentation of Stable Baselines3 in the [v1.0 blog post
 These algorithms will make it easier for the research community and industry to replicate, refine, and identify new ideas, and will create good baselines to build projects on top of. We expect these tools will be used as a base around which new ideas can be added, and as a tool for comparing a new approach against existing ones. We also hope that the simplicity of these tools will allow beginners to experiment with a more advanced toolset, without being buried in implementation details.
 
 **Note: Despite its simplicity of use, Stable Baselines3 (SB3) assumes you have some knowledge about Reinforcement Learning (RL).** You should not utilize this library without some practice. To that extent, we provide good resources in the [documentation](https://stable-baselines3.readthedocs.io/en/master/guide/rl.html) to get started with RL.
+
+
+## Latest Update 2023/03/24 by JY251
+
+Since `pip install gym==0.21.0` doesn't work well on Google Colab, I revised the version of gym in `setup.py` and `docs/conda_env.yml`.
+I appreciate your advice on this points, such as other ways to solve this problem.
 
 ## Main Features
 
